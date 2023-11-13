@@ -1,4 +1,4 @@
-# news_app_ui_setup
+# news_app_flutter_api
 
 A new Flutter project.
 
