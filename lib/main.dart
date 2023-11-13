@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:news_app_ui_setup/screens/home_news.dart';
 import 'package:news_app_ui_setup/widgets/category_card.dart';
 
 void main() {
@@ -10,6 +11,9 @@ class NewsApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp();
+    return const MaterialApp(
+      home: NewsHomeScreen(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
